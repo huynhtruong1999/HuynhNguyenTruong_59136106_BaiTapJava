@@ -9,9 +9,8 @@ package Bai1;
  *
  * @author HuynhNguyenTruong
  */
-public class NhanVien {
-    //Khai bao
     public class NhanVien {
+    //Khai bao
     public String ten;
     public int tuoi;
     public String diachi;
@@ -25,6 +24,7 @@ public class NhanVien {
     this.diachi=diachi;
     this.tienluong=tienluong;
     this.tongsogiolam=tongsogiolam;
+    this.getThongTin();
     }
     
     // getter, setter
@@ -37,7 +37,7 @@ public class NhanVien {
   public void setTuoi(int tuoi) {
     this.tuoi = tuoi;
   }
-  public int getuoi() {
+  public int gettuoi() {
     return this.tuoi;
   }
   public void setDiaChi(String diachi) {
@@ -55,7 +55,7 @@ public class NhanVien {
   public void setTongSoGioLam(int tongsogiolam) {
     this.tongsogiolam = tongsogiolam;
   }
-  public int getTongSoGioLam() {
+  public int getTongSGioLam() {
     return this.tongsogiolam;
   }
   
@@ -81,4 +81,4 @@ public class NhanVien {
     }else tienthuong = 0;
     return tienthuong;
     }
-}
+}    
