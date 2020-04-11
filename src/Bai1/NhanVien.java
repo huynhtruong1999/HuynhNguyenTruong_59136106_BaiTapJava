@@ -37,7 +37,7 @@ package Bai1;
   public void setTuoi(int tuoi) {
     this.tuoi = tuoi;
   }
-  public int gettuoi() {
+  public int getTuoi() {
     return this.tuoi;
   }
   public void setDiaChi(String diachi) {
@@ -55,7 +55,7 @@ package Bai1;
   public void setTongSoGioLam(int tongsogiolam) {
     this.tongsogiolam = tongsogiolam;
   }
-  public int getTongSGioLam() {
+  public int getTongSoGioLam() {
     return this.tongsogiolam;
   }
   
