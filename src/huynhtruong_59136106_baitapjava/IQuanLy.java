@@ -5,10 +5,12 @@
  */
 package huynhtruong_59136106_baitapjava;
 
+import Bai1.NhanVien;
 /**
  *
- * @author ASUS
+ * @author Huynh Nguyen Truong
  */
-public class IQuanLy {
-    
+public interface IQuanLy {
+  public void them(NhanVien nv);
+  public void inDS();
 }
