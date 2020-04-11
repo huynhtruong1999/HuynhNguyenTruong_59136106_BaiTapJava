@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package huynhtruong_59136106_baitapjava;
+package Bai3;
 
-import Bai1.NhanVien;
 /**
  *
- * @author Huynh Nguyen Truong
+ * @author ASUS
  */
-public interface IQuanLy {
-  public void them(NhanVien nv);
-  public void inDS();
+public class SinhVienPoly {
+    
 }
