@@ -5,10 +5,25 @@
  */
 package huynhtruong_59136106_baitapjava;
 
+import Bai1.NhanVien;
+import java.util.ArrayList;
 /**
  *
- * @author ASUS
+ * @author Huynh Nguyen Truong
  */
-public class QuanLyNhanVien {
+public class QuanLyNhanVien implements IQuanLy{
+    // danh sach nhan vien
+    ArrayList<NhanVien> DanhSachNhanVien = new ArrayList<>();
     
+    //Them nhan vien
+    @Override
+    public void them(NhanVien nv) {
+        DanhSachNhanVien.add(nv);
+    }
+    
+    //Xuat thong tin nhan vien
+    @Override
+    public void inDS() {
+        DanhSachNhanVien.forEach(nv -> System.out.println(nv.getThongTin()));
+    };  
 }
