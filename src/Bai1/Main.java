@@ -11,7 +11,7 @@ package Bai1;
  */
 public class Main {
     public static void main(String[] args) {
-        NhanVien nv1 = new NhanVien("Nguyen A",30,"Phu Yen",10000000,100);
-        NhanVien nv2 = new NhanVien("Nguyen B",20,"Nha Trang",20000000,200);
+        NhanVien nv1 = new NhanVien("Nguyen A",30,"Phu Yen",1000000,100);
+        NhanVien nv2 = new NhanVien("Nguyen B",20,"Nha Trang",2000000,200);
     }
 }
