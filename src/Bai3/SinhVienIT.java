@@ -9,6 +9,22 @@ package Bai3;
  *
  * @author ASUS
  */
-public class SinhVienIT {
+public class SinhVienIT extends SinhVienPoly{
+    // thuoc tinh
+    public double diemJava;
+    public double diemHtml;
+    public double diemCss;
+    
+    public SinhVienIT(String hoTen, String nganhHoc, double diemJava, double diemHtml, double diemCss){
+    super(hoTen, nganhHoc);
+    this.diemJava = diemJava;
+    this.diemHtml = diemHtml;
+    this.diemCss = diemCss;
+    }
+    
+    @Override
+    public double getDiem() {
+        return (2 * this.diemJava + this.diemHtml + this.diemCss) / 4;
+    };
     
 }
