@@ -9,6 +9,19 @@ package Bai3;
  *
  * @author ASUS
  */
-public class SinhVienBiz {
+public class SinhVienBiz extends SinhVienPoly {
+    // thuoc tinh
+    public double diemMarketing;
+    public double diemSales;
     
+    public SinhVienBiz(String hoTen, String nganhHoc, double diemMarketing, double diemSales){
+    super(hoTen, nganhHoc);
+    this.diemMarketing = diemMarketing;
+    this.diemSales = diemSales;
+    }
+    
+    @Override
+    public double getDiem() {
+        return (2 * diemMarketing + diemSales) / 3;
+    };    
 }
