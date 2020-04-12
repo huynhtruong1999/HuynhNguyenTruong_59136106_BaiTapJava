@@ -22,5 +22,25 @@ public abstract class SinhVienPoly {
     //truu tuong get diem
     public abstract double getDiem();
     
-
+    //xet hoc luc
+    public String getHocLuc(){
+    if(this.getDiem() < 5){
+        return "Yeu";
+    }
+    if(this.getDiem() >= 5 && this.getDiem() < 6.5){
+        return "Trung binh";
+    }
+    if(this.getDiem() >= 6.5 && this.getDiem() < 7.5){
+        return "Kha";
+    }
+    if(this.getDiem() >= 7.5 && this.getDiem() < 9){
+        return "Gioi";
+    }
+    return "Xuat sac";
+    };
+    
+    //xuat thong tin sinh vien
+    public void xuat(){
+    System.out.println("Ho ten: " + this.hoTen + ", nganh hoc: " + this.nganhHoc);
+    }
 }
