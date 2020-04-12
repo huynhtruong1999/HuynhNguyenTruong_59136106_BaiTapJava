@@ -19,4 +19,9 @@ public class SinhVienBiz extends SinhVienPoly {
     this.diemMarketing = diemMarketing;
     this.diemSales = diemSales;
     }
+    
+    @Override
+    public double getDiem() {
+        return (2 * diemMarketing + diemSales) / 3;
+    };    
 }
