@@ -29,5 +29,10 @@ public class Main4 {
         qLyChuyenXe.themChuyenXe(xeNgoaiThanh2);
         qLyChuyenXe.themChuyenXe(xeNgoaiThanh3);
 
+        qLyChuyenXe.inThongTin();
+
+        System.out.printf("\nTong doanh thu xe noi thanh: %.00f" , qLyChuyenXe.tongDoanhThuNoiThanh());        
+        System.out.printf("\nTong doanh thu xe ngoai thanh: %.00f", qLyChuyenXe.tongDoanhThuNgoaiThanh());  
+        System.out.printf("\nTong doanh thu: %.00f\n", qLyChuyenXe.tongDoanhThu());   
     }
 }

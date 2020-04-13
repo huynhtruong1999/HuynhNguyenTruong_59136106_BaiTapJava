@@ -14,5 +14,16 @@ public class XeNgoaiThanh extends ChuyenXe{
     public String noiDen;
     public int soNgay;
   
-
+    public XeNgoaiThanh(String maChuyen, String tenTaiXe, String soXe, double doanhThu, String noiDen, int soNgay) {
+    super(maChuyen, tenTaiXe, soXe, doanhThu);
+    this.noiDen = noiDen;
+    this.soNgay = soNgay;
+    }
+    
+    @Override
+    public void xuatThongTin() {
+      super.xuatThongTin();
+      System.out.println("Noi den: " + this.noiDen);
+      System.out.println("So ngay: " + this.soNgay);
+    }  
 }

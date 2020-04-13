@@ -16,5 +16,17 @@ public abstract class ChuyenXe {
     public String soXe;
     public double doanhThu;
     
-
+    public ChuyenXe(String maChuyen, String tenTaiXe, String soXe, double doanhThu){
+        this.maChuyen = maChuyen;
+        this.tenTaiXe = tenTaiXe;
+        this.soXe = soXe;
+        this.doanhThu = doanhThu;
+    }
+    
+    public void xuatThongTin(){
+        System.out.println("Ma chuyen xe: " + this.maChuyen);
+        System.out.println("Ho ten tai xe: " + this.tenTaiXe);
+        System.out.println("So xe: " + this.soXe);
+        System.out.printf("Doanh thu: %.00f\n", this.doanhThu);
+    };
 }
